@@ -1,0 +1,28 @@
+//mobileFirst
+@media(max-width:767px){
+    #gridArea {
+        display: grid;
+        grid-template-areas: 
+        "logotype"
+        "navegator"
+        "section"
+        "secondary"
+        "footer";        ;
+        header{
+            grid-area: logotype;
+        }
+        nav {
+            grid-area: navegator;
+        }
+        section {
+            grid-area: section;
+        }
+        aside {
+            grid-area: secondary;
+        }
+        footer{
+            grid-area: footer;
+        }
+
+    }
+}

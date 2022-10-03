@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+  #gridArea {
+    display: grid;
+    grid-template-areas: "logotype" "navegator" "section" "secondary" "footer";
+  }
+  #gridArea header {
+    grid-area: logotype;
+  }
+  #gridArea nav {
+    grid-area: navegator;
+  }
+  #gridArea section {
+    grid-area: section;
+  }
+  #gridArea aside {
+    grid-area: secondary;
+  }
+  #gridArea footer {
+    grid-area: footer;
+  }
+}/*# sourceMappingURL=main.css.map */
